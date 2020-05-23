@@ -1,0 +1,83 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+    color: #555;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 300%;
+    color: #fff;
+}
+/* ----------------- */
+/* Header */
+/* ----------------- */
+
+header {
+    height: 100vh;
+    background-image: url(img/bckimg.JPG);
+    background-size: cover;
+}
+
+.left_header,
+.right_header {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+
+/* .right_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+} */
+
+.left_header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.header_text_box {
+    display: block;
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    margin-top: 25%;
+    text-align: center;
+}
+
+.header_text_box p {
+    color: #fff;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.short_bottom_line {
+    border-top: 1px solid #fff;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
+
+}
+
+#hello_world {
+    padding-top: 20px;
+    font-size: 125%;
+}
+
+#intro {
+    border: 1px solid #fff;
+    margin-top: 20%;
+    
+}
