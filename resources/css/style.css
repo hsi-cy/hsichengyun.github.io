@@ -83,9 +83,14 @@ header {
 }
 
 /* ----------------- */
-/* Header */
+/* Section Profile */
 /* ----------------- */
-.row {
+
+section {
+    height: 100vh;
+}
+
+.about_me {
     display: block;
     text-align: center;
     padding-top: 40px;
@@ -93,14 +98,75 @@ header {
     margin-left: 35%;
 }
 
-.quote {
+
+
+#about_me_sub {
     display: block;
     text-align: center;
     padding-top: 20px;
+    font-size: 125%;
 }
 
 .black {
     border-bottom: 1px solid #555;
+}
+
+
+.col {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 65vh;
+    margin-top: 40px;
+}
+
+.center_of_3 {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border: 1px solid #27ae60;
+    background-color: ;
+}
+
+.left_of_3 {
+    margin-left: 11%;
+}
+
+.right_of_3 {
+    margin-right: 11%;
+}
+
+ion-icon {
+    display: inline-block;
+    font-size: 250%;
+    text-align: center;
+    margin: 5px 5px;
+    color: #27ae60;
+}
+
+.profile_subtitle,
+.profile_text {
+    padding: 30px 30px;
+}
+
+.profile_text {
+    display: block;
+    float: left;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.profile_text a {
+    text-decoration: none;
+    color: #1e8449;
+}
+
+/* Skills section */
+
+.quote {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #connecting_the_dots {
