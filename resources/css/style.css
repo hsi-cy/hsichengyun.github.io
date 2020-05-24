@@ -24,8 +24,12 @@ h1 {
 }
 
 h2 {
-    font-size: 180%;
+    font-size: 220%;
     color: #555;
+}
+
+h3 {
+    font-size: 120%;
 }
 /* ----------------- */
 /* Header */
@@ -86,11 +90,11 @@ header {
 /* Section Profile */
 /* ----------------- */
 
-section {
+.section_profile {
     height: 100vh;
 }
 
-.about_me {
+.section_title {
     display: block;
     text-align: center;
     padding-top: 40px;
@@ -124,7 +128,7 @@ section {
 .center_of_3 {
     margin-left: 1.5%;
     margin-right: 1.5%;
-    border: 1px solid #27ae60;
+    border: 1px solid #2980b9;
     background-color: ;
 }
 
@@ -141,7 +145,7 @@ ion-icon {
     font-size: 250%;
     text-align: center;
     margin: 5px 5px;
-    color: #27ae60;
+    color: #2980b9;
 }
 
 .profile_subtitle,
@@ -158,10 +162,18 @@ ion-icon {
 
 .profile_text a {
     text-decoration: none;
-    color: #1e8449;
+    color: #236d9d;
 }
 
-/* Skills section */
+/* Section experiences */
+
+.section_experiences {
+    background-color: #ecf0f1;
+}
+
+#experiences {
+    color: #2980b9;
+}
 
 .quote {
     display: block;
@@ -173,4 +185,30 @@ ion-icon {
     font-size: 125%;
     padding-bottom: 10px;
     line-height: 40px;
+    width: 35%;
+    margin-left: 32.5%;
 }
+
+.exp_container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1.6;
+    border-top: 0.8px solid #555;
+}
+
+.exp_left,
+.exp_right {
+    padding-top: 40px;
+}
+
+.section_sub_title {
+    color: #2980b9;
+    font-size: 180%;
+}
+
+/* Projects section */
+
