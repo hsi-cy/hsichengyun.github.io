@@ -167,7 +167,7 @@ ion-icon {
 
 /* Section experiences */
 
-.section_experiences {
+#section_experiences {
     background-color: #ecf0f1;
 }
 
@@ -210,5 +210,49 @@ ion-icon {
     font-size: 180%;
 }
 
-/* Projects section */
+/* Skills section */
 
+#section_skills {
+    height: 100vh;
+}
+
+.skill_levels {
+    display: grid;
+    grid-template-columns: 30% 20% 30% auto;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1.6;
+    border-top: 0.8px solid #555;
+}
+/* 
+.left_left,
+.right_left {
+    border: 1px solid black;
+}
+
+.left_right,
+.right_right {
+    border: 1px solid red;
+} */
+
+.fas {
+    color: #236d9d;
+}
+
+/* .left_left {
+    grid-column: 1/2;
+}
+
+.left_right {
+    grid-column: 2/3;
+}
+
+.right_left {
+    grid-column: 3/4;
+}
+
+.right_right {
+    grid-column: 4/5;
+} */
