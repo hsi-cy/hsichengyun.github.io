@@ -102,6 +102,9 @@ header {
     margin-left: 35%;
 }
 
+.section_title h2 {
+    color: #2980b9;
+}
 
 
 #about_me_sub {
@@ -205,62 +208,33 @@ ion-icon {
     padding-top: 40px;
 }
 
-.section_sub_title {
-    color: #2980b9;
-    font-size: 180%;
+/*  */
+/* Section Skills */
+/*  */
+
+.fas,
+.far {
+    color: #236d9d;
 }
 
-/* Skills section */
-
-#section_skills {
-    height: 100vh;
-}
-
-.skill_title {
-    display: block;
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 40px;
-    padding-bottom: 20px;
-    border-bottom: 0.8px solid #555;
-}
-
-.skill_levels {
+.grid_container_60_40 {
     display: grid;
-    grid-template-columns: 30% 20% 30% auto;
     width: 60%;
     margin-left: 20%;
+    grid-template-columns: 30% 20% 30% 20%;
     margin-top: 20px;
     text-align: left;
     line-height: 1.6;
 }
-/* 
-.left_left,
-.right_left {
-    border: 1px solid black;
+
+.skill_title {
+    grid-column: 1/5;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
 }
 
-.left_right,
-.right_right {
-    border: 1px solid red;
-} */
-
-.fas {
-    color: #236d9d;
+.skill_name,
+.skill_level {
+    padding-top: 7px;
 }
-
-/* .left_left {
-    grid-column: 1/2;
-}
-
-.left_right {
-    grid-column: 2/3;
-}
-
-.right_left {
-    grid-column: 3/4;
-}
-
-.right_right {
-    grid-column: 4/5;
-} */
