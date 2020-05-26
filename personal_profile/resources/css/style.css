@@ -277,6 +277,7 @@ ion-icon {
     width: 60%;
     margin-left: 20%;
     text-align: left;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 .skill_level_container {
@@ -303,8 +304,8 @@ ion-icon {
     line-height: 1.6;
 }
 
-#skill_left_part,
-#skill_right_part {
+.skill_left_part,
+.skill_right_part {
     display: flex;
     width: 50%;
 }
@@ -329,8 +330,8 @@ ion-icon {
         width: 40%;
     }
 
-    #skill_left_part,
-    #skill_right_part {
+    .skill_left_part,
+    .skill_right_part {
         width: 100%;
         
     }
