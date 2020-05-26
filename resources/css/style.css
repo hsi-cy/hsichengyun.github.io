@@ -39,6 +39,9 @@ header {
     height: 100vh;
     background-image: url(img/bckimg.JPG);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .left_header,
@@ -98,8 +101,7 @@ header {
     display: block;
     text-align: center;
     padding-top: 40px;
-    width: 30%;
-    margin-left: 35%;
+    width: 100%;
 }
 
 .section_title h2 {
@@ -124,7 +126,7 @@ header {
     float: left;
     text-align: center;
     width: 25%;
-    height: 65vh;
+    height: auto;
     margin-top: 40px;
 }
 
@@ -132,7 +134,7 @@ header {
     margin-left: 1.5%;
     margin-right: 1.5%;
     border: 1px solid #2980b9;
-    background-color: ;
+    
 }
 
 .left_of_3 {
@@ -229,7 +231,7 @@ ion-icon {
 
 .skill_title {
     grid-column: 1/5;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
 }
@@ -238,3 +240,46 @@ ion-icon {
 .skill_level {
     padding-top: 7px;
 }
+
+/* test for profile page using grid */
+
+/* .test {
+    height: 100vh;
+}
+
+.profile_grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15% 10% 75%;
+    width: 75%;
+    margin-left: 12.5%;
+    border: 1px solid black;
+}
+
+.profile_title {
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.profile_subtitle {
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+.profile_photography,
+.profile_programming,
+.profile_languages {
+    grid-row: 3/4;
+}
+
+.profile_photography {
+    grid-column: 1/2;
+}
+
+.profile_programming {
+    grid-column: 2/3;
+}
+
+.profile_languages {
+    grid-column: 3/4;
+} */
