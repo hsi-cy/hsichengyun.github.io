@@ -9,58 +9,142 @@
 </head>
 <body>
   <header>
-    <section class="left_header">
-      <div class="header_text_box">
-        <p id="hello_world"><em>Hello World, I'm</em></p>
-        <div class="short_bottom_line"></div>
+    <section id="header">
+      <div class="hero_text_box">
+        <p><em>Hello World! I'm</em></p>
+        <div class="bottom_line"></div>
         <h1>Hsi Cheng Yun</h1>
       </div>
     </section>
-    <section class="right_header">
-      <!-- 這邊先放著 到時候看有沒有要用到 -->
-    </section>
   </header>
+  <section id="namecard">
+    <div class="section_title">
+      <h2>About Me</h2>
+    </div>
+    <div class="section_sub">
+      <p>Find a quote here</p>
+    </div>
+    <figure class="name_card center">
+      <div class="name_card_hero">
+        <img src="resources/css/img/me copy.jpg" alt="my face" class="name_card_img">
+      </div>
+      <div class="name_card_content">
+        <ul>
+          <li>Hsi Cheng-Yun</li>
+          <li>Entreprenuer/ Programmer/ Photographer </li>
+          <li>Current location: Bath, United Kingdom</li>
+        </ul>
+      </div>
+    </figure>
+    <div id="about_me_experiences">
+      <h3>Experiences</h3>
+    </div>
+    <div class="experiences_dir_by_col">
+      <div class="exp_row">
+        <div class="exp_icon col_1">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="exp_title col_2">
+          <p class="exp_program">MSc in <br> <em>Management</em></p>
+          <p class="exp_uni">University of Bath, United Kingdom</p>
+          <p class="exp_date">Sep 2019 - Dec 2020</p>
+        </div>
+        <div class="exp_description col_3">
+          <p>Focus on business analytics/ Data visualisation using Python/ business intellegence</p>
+        </div>
+      </div>
+      <div class="exp_row">
+        <div class="exp_icon col_1">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="exp_title col_2">
+          <p class="exp_program">Sales Support Intern</p>
+          <p class="exp_uni">Ecolab Taiwan</p>
+          <p class="exp_date">Mar 2019 - Jun 2020</p>
+        </div>
+        <div class="exp_description col_3">
+          <p>Main responsibilities included translation of training program for new account manager and a Python application
+            that makes product check-list automatically. More detailed information please refer to my reflective report.
+          </p>
+        </div>
+      </div>
+      <div class="exp_row">
+        <div class="exp_icon col_1">
+          <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="exp_title col_2">
+          <p class="exp_program">International sales</p>
+          <p class="exp_uni">J&A Information Inc, Taiwan</p>
+          <p class="exp_date">Jan 2019 - Sep 2020</p>
+        </div>
+        <div class="exp_description col_3">
+          <p>Worked closely with the sales team, focusing on territories like Kazakhstan, Nepal, and India.
+            Participated in international exhibitions including Taipei Computex and Hong Kong Global Resources 
+            Consumer Electornics Show in 2018.
+          </p>
+        </div>
+      </div>
+      <div class="exp_row">
+        <div class="exp_icon col_1">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="exp_title col_2">
+          <p class="exp_program">Exchange Student</p>
+          <p class="exp_uni">Kazan Federal University, Russia</p>
+          <p class="exp_date">Sep 2016 - Jun 2017</p>
+        </div>
+        <div class="exp_description col_3">
+          <p>Exceled in the "Russian as a foreign language test (TORFL)" B2 level. </p>
+        </div>
+      </div>
+      <div class="exp_row">
+        <div class="exp_icon col_1">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="exp_title col_2">
+          <p class="exp_program">BA in <br> <em>Slavic Languages & Literature</em></p>
+          <p class="exp_uni">National Chengchi University, Taiwan</p>
+          <p class="exp_date">Sep 2013 - Jun 2016</p>
+        </div>
+        <div class="exp_description col_3">
+          <p>I was the captain of our department's basketball team. Good at lifting team spirit and encouraging 
+            teammates to keep going. Showing a strong leadership and good teamwork, I led the team to the 
+            championship in 2015.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="section_profile">
     <div class="section_title">
-      <h2>Profile</h2>
-      <div class="short_bottom_line black"></div>
+      <h2>My Passions</h2>
     </div>
-    <div id="about_me_sub">
-      <p>There are 3 things you need to know about me</p>
+    <div class="section_sub">
+      <p>Find a quote here</p>
     </div>
-    <div class="col left_of_3">
-      <div class="profile_subtitle">
+    <div class="about_me_container">
+      <div class="coloumn">
+        <ion-icon name="desktop-outline"></ion-icon>
+        <h3>Programming</h3>
+        <p>
+          I am a Python programmer with experience in data manipulation and visualisation, web-crawling application, Instagram bot etc.
+          Having completed several mini-projects, I have picked up SQL, HTML, CSS along the way. Please visit my projects on  
+          my <em><a href="https://github.com/hsi-cy" target="_blank">Github</a></em> repositories.
+        </p>
+      </div>
+      <div class="coloumn">
         <ion-icon name="camera-outline"></ion-icon>
         <h3>Photography</h3>
-      </div>
-      <div class="profile_text">
         <p>
-          Wildlife photography is my hobby. I manage an <a href="https://www.instagram.com/hcy_wildlife_photography/" target="_blank">Instagram</a> account, 
+          Wildlife photography is my hobby. I manage an <em><a href="https://www.instagram.com/hcy_wildlife_photography/" target="_blank">Instagram</a></em> account, 
           focusing on urban wildlife to share my values: 
           <cite>"Nature is all around us. So open your mind, be curious, and care more."</cite>
           I believe by sharing the beauty of these common animals people will be attracted and start to care more!
         </p>
       </div>
-    </div>
-    <div class="col center_of_3">
-      <div class="profile_subtitle">
-        <ion-icon name="desktop-outline"></ion-icon>
-        <h3> Programming</h3>
-      </div>
-      <div class="profile_text">
-        <p>
-          I am a Python programmer with experience in data manipulation and visualisation, web-crawling application, Instagram bot etc.
-          Having completed several mini-projects, I have picked up SQL, HTML, CSS along the way. Please visit my projects on  
-          my <a href="https://github.com/hsi-cy" target="_blank">Github</a> repositories.
-        </p>
-      </div>
-    </div>
-    <div class="col right_of_3">
-      <div class="profile_subtitle">
+      <div class="coloumn">
         <ion-icon name="language-outline"></ion-icon>
         <h3>Languages</h3>
-      </div>
-      <div class="profile_text">
         <p>
           Language ability is one of my strongest suits. I spent a year in Russia and now 
           I am studying in the UK. Knowing three languages makes me a person with different
@@ -68,352 +152,297 @@
           puts understanding in priority.
         </p>
       </div>
-    </div>      
-  </section>
-  <section id="section_experiences">
-    <div class="section_title">
-      <h2>Experiences</h2>
-      <div class="short_bottom_line black"></div>
     </div>
-    <div class="quote">
-      <p id="connecting_the_dots">
-        <cite>"You can't connect the dots looking forward; <br>
-          you can only connect them looking backward."</cite>
-      </p>
-      <p>- By Steve Jobs, 2005</p>
-    </div>
-    <div class="exp_container">
-      <div class="exp_left">
-        <h3>University of Bath, UK</h3>
-        <p class="exp_date">Sep 2019 - Dec 2020</p>
-      </div>
-      <div class="exp_right">
-        <h3>MSc in Management</h3>
-        <p class="exp_text">
-          this is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timev
-        </p>
-      </div>
-      <div class="exp_left">
-        <h3>Ecolab, Taiwan</h3>
-        <p class="exp_date">Mar 2019 - Aug 2019</p>
-      </div>
-      <div class="exp_right">
-        <h3>Sales Support Intern (Part-time)</h3>
-        <p class="exp_text">
-          this is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timev
-        </p>
-      </div>
-      <div class="exp_left">
-        <h3>J&A Information Inc, Taiwan</h3>
-        <p class="exp_date">Jan 2018 - Sep 2018</p>
-      </div>
-      <div class="exp_right">
-        <h3>International Sales (Full-time)</h3>
-        <p class="exp_text">
-          this is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timev
-        </p>
-      </div>
-      <div class="exp_left">
-        <h3>Kazan Federal University, Russia</h3>
-        <p class="exp_date">Sep 2016 - Jun 2017</p>
-      </div>
-      <div class="exp_right">
-        <h3>Exchange Student</h3>
-        <p class="exp_text">
-          this is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timev
-        </p>
-      </div>
-      <div class="exp_left">
-        <h3>National Chengchi University, Taiwan</h3>
-        <p class="exp_date">Sep 2013 - Jun 2016</p>
-      </div>
-      <div class="exp_right">
-        <h3>BA in Slavic Languages and Literature</h3>
-        <p class="exp_text">
-          this is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timethis is what i've done during this period of time
-          this is what i've done during this period of timev
-        </p>
-      </div>
-      
   </section>
   <section id="section_skills">
     <div class="section_title">
       <h2>Skills</h2>
-      <div class="short_bottom_line black"></div>
     </div>
-    <div class="grid_container_60_40">
-      <div class="skill_title">
-        <h3 >Python Libraries</h3>
-      </div>
-      <!-- Python row 1 -->
-      <div class="skill_name left">
-        <p>Matplotlib.pyplot</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Pyautogui</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> 
-      <!-- Python row 2 -->
-      <div class="skill_name left">
-        <p>Pandas</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Request</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div>
-      <!-- Python row 3 -->
-      <div class="skill_name left">
-        <p>Selenium</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Sklearn</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> 
-      <!-- Python row 4 -->
-      <div class="skill_name left">
-        <p>BeautifulSoup</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Flask</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> 
-      <!-- Python row 5 -->
-      <div class="skill_name left">
-        <p>Seaborn</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Sqlalchemy</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> 
-      <!-- Python row 6 -->
-      <div class="skill_name left">
-        <p>Statsmodels.api</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Pillow</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> 
-      <!-- Python row 7 -->
-      <div class="skill_name left">
-        <p>Folium</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Plotly</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div>  
-      <!-- Other Technical Skills -->   
-      <div class="skill_title">
-        <h3>Other Technical Skills</h3>
-      </div>
-      <!-- Other Technical Skills row 1 -->
-      <div class="skill_name left">
-        <p>HTML</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Java Script</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div>
-      <!-- Other Technical Skills row 2 -->
-      <div class="skill_name left">
-        <p>CSS</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>C</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div>
-      <!-- Other Technical Skills row 2 -->
-      <div class="skill_name left">
-        <p>SQL</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <!-- empty -->
-      </div>
-      <div class="skill_level right">
-        <!-- empty -->
-      </div>        
-      <!-- Languages Skills -->   
-      <div class="skill_title">
-        <h3>Languages</h3>
-      </div>
-      <!-- Languages row 1 -->
-      <div class="skill_name left">
-        <p>Mandarin</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-      </div> <div class="skill_name right">
-        <p>Russian</p>
-      </div>
-      <div class="skill_level right">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="far fa-star"></i></span>
-      </div>
-      <!-- Languages row 2 -->
-      <div class="skill_name left">
-        <p>English</p>
-      </div>
-      <div class="skill_level left">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star-half-alt"></i></span>
-      </div> <div class="skill_name right">
-        <!-- empty -->
-      </div>
-      <div class="skill_level right">
-        <!-- empty -->
-      </div>        
+    <div class="section_sub">
+      <p>Find a quote here</p>
     </div>
-  </section>
-  <section class="test">
-    <div class="profile_grid_container">
-      <div class="profile_title">profile</div>
-      <div class="profile_subtitle">there are 3 things</div>
-      <div class="profile_photography">photo </div>
-      <div class="profile_programming">program</div>
-      <div class="profile_languages">languages</div>
+    <div class="skill_title">
+      <h3>Python Libraries</h3>
+    </div>
+    <div class="skill_level_container">
+      <!-- Skill name left -->
+      <div class="skill_left_part">
+        <div class="skill_name_column">
+          <div class="skill_name">
+            <p>Matplotlib.pyplot</p>
+          </div>
+          <div class="skill_name">
+            <p>Pandas</p>
+          </div>
+          <div class="skill_name">
+            <p>Selenium</p>
+          </div>
+          <div class="skill_name">
+            <p>BeautifulSoup</p>
+          </div>
+          <div class="skill_name">
+            <p>Seaborn</p>
+          </div>
+          <div class="skill_name">
+            <p>Statsmodels.api</p>
+          </div>
+          <div class="skill_name">
+            <p>Folium</p>
+          </div>
+        </div>
+        <div class="skill_level_column">
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+      <!-- skill name right -->
+      <div class="skill_right_part">
+        <div class="skill_name_column">
+          <div class="skill_name">
+            <p>Pyautogui</p>
+          </div>
+          <div class="skill_name">
+            <p>Request</p>
+          </div>
+          <div class="skill_name">
+            <p>Sklearn</p>
+          </div>
+          <div class="skill_name">
+            <p>Flask</p>
+          </div>
+          <div class="skill_name">
+            <p>Sqlalchemy</p>
+          </div>
+          <div class="skill_name">
+            <p>Pillow</p>
+          </div>
+          <div class="skill_name">
+            <p>Plotly</p>
+          </div>
+        </div>
+        <div class="skill_level_column">
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skill_title">
+      <h3>Other Technical Skills</h3>
+    </div>
+    <!-- Other skills left part -->
+    <div class="skill_level_container">
+      <div class="skill_left_part">
+        <div class="skill_name_column">
+          <div class="skill_name">
+            <p>HTML</p>
+          </div>
+          <div class="skill_name">
+            <p>CSS</p>
+          </div>
+          <div class="skill_name">
+            <p>SQL</p>
+          </div>
+        </div>
+        <div class="skill_level_column">
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill_right_part">
+        <div class="skill_name_column">
+          <div class="skill_name">
+            <p>Java Script</p>
+          </div>
+          <div class="skill_name">
+            <p>C</p>
+          </div>
+        </div>
+        <div class="skill_level_column">
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="skill_title">
+      <h3>Languages</h3>
+    </div>
+    <div class="skill_level_container">
+      <!-- Languages left part -->
+      <div class="skill_left_part">
+        <div class="skill_name_column">
+          <div class="skill_name">
+            <p>Mandarin</p>
+          </div>
+          <div class="skill_name">
+            <p>English</p>
+          </div>
+        </div>
+        <div class="skill_level_column">
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+          </div>
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star-half-alt"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="skill_right_part">
+        <div class="skill_name_column">
+          <div class="skill_name">
+            <p>Russian</p>
+          </div>
+        </div>
+        <div class="skill_level_column">
+          <div class="skill_level">
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="fas fa-star"></i></span>
+            <span><i class="far fa-star"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   <script src="https://kit.fontawesome.com/35987634fb.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
 
 <!-- 
 empty star
