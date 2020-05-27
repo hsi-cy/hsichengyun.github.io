@@ -112,7 +112,7 @@ header {
         display: flex;
         flex-direction: column;
     }
-    #navbar ul li {
+    #navbar ul li a{
         font-size: 80%;
     }
     .hero_text_box {
