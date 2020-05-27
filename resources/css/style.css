@@ -70,7 +70,7 @@ header {
 
 #navbar ul li {
     list-style: none;
-    padding: 20px;
+    padding: 1rem;
     text-transform: uppercase;
 }
 
