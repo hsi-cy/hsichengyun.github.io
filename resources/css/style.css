@@ -126,11 +126,14 @@ header {
     .hero_text_box {
         width: 100%;
         height: 30%;
-        background-color: rgba(0,0,0,0.0);
-        text-align: left;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: rgba(0,0,0,0.6);
+        text-align: center;
         /* border: 1px solid magenta; */
     }
-    .hero_text_box p,
+    /* .hero_text_box p,
     .hero_text_box h1 {
         color: #555;
         padding-left: 5%;
@@ -138,7 +141,7 @@ header {
 
     .hero_text_box p {
         padding-left: 6%;
-    }
+    } */
 
 }
 /*  */
