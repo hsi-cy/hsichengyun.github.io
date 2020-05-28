@@ -53,7 +53,7 @@ header {
     /* width: 100%; */
     background: url(img/bckimg_chedar.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -107,6 +107,7 @@ header {
 }
 
 @media (max-width:768px) {
+
     #header {
         display: flex;
         flex-direction: column;
