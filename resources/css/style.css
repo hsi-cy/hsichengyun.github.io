@@ -416,6 +416,11 @@ ion-icon {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.skill_title > h3{
+    font-weight: bold;
+}
+
 .skill_level_container {
     display: flex;
     width: 60%;
